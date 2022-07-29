@@ -9,10 +9,26 @@ import Resume from "./pages/Resume";
 
 // Our App component returns the Greeting component
 function App() {
+  const [currentPage, setCurrentPage] = useState("Home");
+
+  const renderScreen = () => {
+    if(currentPage == "Home") {
+      return <Home />
+    }else if(currentPage == "Portfolio") {
+      return <Portfolio />
+    }else if(currentPage == "About") {
+      return <About />
+    }
+  }
+
+  const changePage = (page) => {
+    setCurrentPage(page)
+  }
+
   return (
     <>
-      <Header />
-      <Portfolio />
+      <Header changeFn={changePage} />
+      {renderScreen()}
       <Footer />
     </>
   );

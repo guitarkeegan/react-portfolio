@@ -32,11 +32,14 @@ svg{
 
 .project-container{
     background-color: var(--lg);
+
 }
 
 .project-container img{
     height: 350px;
-    width: 350px;
+    width: 400px;
+    margin: 20px;
+    
 }
 
 .profile-div{
