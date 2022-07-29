@@ -30,6 +30,15 @@ svg{
     margin: auto 20px;
 }
 
+.project-container{
+    background-color: var(--lg);
+}
+
+.project-container img{
+    height: 350px;
+    width: 350px;
+}
+
 .profile-div{
     background-color: var(--lg);
 }
