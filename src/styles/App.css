@@ -5,3 +5,15 @@
     --bh: #A1F4DB;
     --gh: #4C7367;
 }
+
+body{
+    background-color: var(--bc);
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
