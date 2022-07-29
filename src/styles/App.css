@@ -30,6 +30,10 @@ svg{
     margin: auto 20px;
 }
 
+.profile-div{
+    background-color: var(--lg);
+}
+
 .nav-link{
     color: var(--dg);   
 }
