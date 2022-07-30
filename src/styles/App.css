@@ -14,7 +14,7 @@ main{
     margin: 30vh auto 0;
 }
 
-main h1{
+h1{
     color: var(--dg);
     font-size: 4rem;
     font-weight: bold;
@@ -47,7 +47,16 @@ svg{
 }
 
 .nav-link{
-    color: var(--dg);   
+    color: var(--dg);
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: var(--bh);
+}
+
+.active {
+    text-decoration: underline;
 }
 
 .footer{
@@ -57,3 +66,15 @@ svg{
     height: 60px;
     line-height: 60px;
 }
+
+.form {
+    margin: 20px;
+  }
+  
+.form input {
+display: block;
+margin-top: 5px;
+margin-bottom: 5px;
+width: 100%;
+}
+  

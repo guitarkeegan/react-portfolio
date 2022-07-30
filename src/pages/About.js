@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../components/img/profile_selfie.jpg';
+import profile from '../assets/img/profile_selfie.jpg';
 
 export default function About(){
 
@@ -12,6 +12,9 @@ export default function About(){
 
     return (
         <div className='about-container container mt-5'>
+        <div>
+            <h1 className='text-center'>About Me</h1>
+        </div>
         <div className='about-title-div'>
             <div className='row'>
                 <div className='col-6 text-center p-1'>

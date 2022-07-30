@@ -1,7 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import "../styles/Header.css";
 
 function Header({changeFn}) {
+
+  const [active, setActive] = useState('')
+
+  const activateMenuItem = () => {
+    active === '' ? setActive('active') : setActive('');
+  }
+
   return (
     <header>
       <nav className="navbar navbar-expand-lg">
@@ -23,7 +30,7 @@ function Header({changeFn}) {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link" aria-current="page" onClick={() => {changeFn("Home")}}>
                   Home
                 </a>
               </li>
@@ -38,12 +45,12 @@ function Header({changeFn}) {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" onClick={() => {changeFn("Resume")}}>
                   Resume
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" onClick={() => changeFn("Contact")}>
                   Contact
                 </a>
               </li>

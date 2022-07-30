@@ -12,12 +12,25 @@ function App() {
   const [currentPage, setCurrentPage] = useState("Home");
 
   const renderScreen = () => {
-    if(currentPage == "Home") {
-      return <Home />
-    }else if(currentPage == "Portfolio") {
-      return <Portfolio />
-    }else if(currentPage == "About") {
-      return <About />
+
+    switch (currentPage) {
+      case "Home":
+        return <Home />
+        break;
+      case "Portfolio":
+        return <Portfolio />
+        break;
+      case "About":
+        return <About />
+        break;
+      case "Contact":
+        return <Contact />;
+        break;
+      case "Resume":
+        return <Resume />;
+        break;
+      default:
+        return <Home />;
     }
   }
 
