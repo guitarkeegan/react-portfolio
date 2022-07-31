@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 // Here we import a helper function that will check if the email is valid
-import { checkPassword, validateEmail } from '../utils/helpers';
+import { validateEmail } from "../utils/helpers";
 
 function Contact() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
-  const [email, setEmail] = useState('');
-  const [userName, setUserName] = useState('');
-  const [password, setPassword] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [email, setEmail] = useState("");
+  const [userName, setUserName] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -18,12 +18,12 @@ function Contact() {
     const inputValue = target.value;
 
     // Based on the input type, we set the state of either email, username, and password
-    if (inputType === 'email') {
+    if (inputType === "email") {
       setEmail(inputValue);
-    } else if (inputType === 'userName') {
+    } else if (inputType === "userName") {
       setUserName(inputValue);
     } else {
-      setPassword(inputValue);
+      setMessage(inputValue);
     }
   };
 
@@ -32,29 +32,37 @@ function Contact() {
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email or username is invalid');
+    if (!validateEmail(email) || !email) {
+      setErrorMessage("Email is either black or invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-    if (!checkPassword(password)) {
-      setErrorMessage(
-        `Choose a more secure password for the account: ${userName}`
-      );
+    if (!userName) {
+      setErrorMessage("Name cannot be left blank");
       return;
     }
-    alert(`Hello ${userName}`);
-
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
-    setUserName('');
-    setPassword('');
-    setEmail('');
+    if (!message) {
+      setErrorMessage("Message cannon be left blank");
+      return;
+    }
+    setUserName("");
+    setEmail("");
+    setMessage("");
+    setErrorMessage("");
   };
 
+  // If everything goes according to plan, we want to clear out the input after a successful registration.
+
   return (
-    <div>
-      <p>Hello {userName}</p>
+    <>
+    <div className="container text-center mt-5">
+      <h1>Contact</h1>
+    </div>
+    <div className="error-messages-container container text-center">
+    <p className="error-text">{errorMessage}</p>
+    </div>
+    <div className="container d-flex justify-content-center">
       <form className="form">
         <input
           value={email}
@@ -62,29 +70,32 @@ function Contact() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          className="form-control"
         />
         <input
           value={userName}
           name="userName"
           onChange={handleInputChange}
           type="text"
-          placeholder="username"
+          placeholder="name"
+          className="form-control"
         />
-        <input
-          value={password}
-          name="password"
+        <textarea
+          value={message}
+          name="message"
           onChange={handleInputChange}
-          type="password"
-          placeholder="Password"
-        />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+          placeholder="message"
+          rows="4"
+          cols="50"
+          className="form-control"
+        ></textarea>
+
+        <button className="btn contact-btn mt-2" type="button" onClick={handleFormSubmit}>
+          Submit
+        </button>
       </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
     </div>
+    </>
   );
 }
 
