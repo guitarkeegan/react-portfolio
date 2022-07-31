@@ -23,9 +23,9 @@ export default function Footer({currentPage}) {
   return (
     <footer className="footer" style={currentPage === "Portfolio" ? styles.portfolio : styles.notPortfolio}>
       <div className="container text-center">
-        <FaGithub />
-        <FaLinkedin />
-        <FaTwitter />
+        <a href="https://github.com/guitarkeegan?tab=repositories"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/keegan-anglim-5b2474165/"><FaLinkedin /></a>
+        <a href="https://twitter.com/NageekDBeat"><FaTwitter /></a>
       </div>
     </footer>
   );
