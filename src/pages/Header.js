@@ -1,13 +1,7 @@
 import React, {useState} from "react";
 import "../styles/Header.css";
 
-function Header({changeFn}) {
-
-  const [active, setActive] = useState('')
-
-  const activateMenuItem = () => {
-    active === '' ? setActive('active') : setActive('');
-  }
+function Header({changeFn, currentPage}) {
 
   return (
     <header>
@@ -30,27 +24,27 @@ function Header({changeFn}) {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" onClick={() => {changeFn("Home")}}>
-                  Home
+                <a className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} aria-current="page" onClick={() => {changeFn("Home")}}>
+                  Card
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" onClick={() => {changeFn("About")}}>
+                <a className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} onClick={() => {changeFn("About")}}>
                   About Me
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" onClick={() => {changeFn("Portfolio")}}>
+                <a className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} onClick={() => {changeFn("Portfolio")}}>
                   Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" onClick={() => {changeFn("Resume")}}>
+                <a className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} onClick={() => {changeFn("Resume")}}>
                   Resume
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" onClick={() => changeFn("Contact")}>
+                <a className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} onClick={() => changeFn("Contact")}>
                   Contact
                 </a>
               </li>

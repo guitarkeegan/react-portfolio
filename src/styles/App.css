@@ -57,6 +57,7 @@ svg{
 
 .active {
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .footer{

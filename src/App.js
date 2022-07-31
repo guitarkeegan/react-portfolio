@@ -9,7 +9,7 @@ import Resume from "./pages/Resume";
 
 // Our App component returns the Greeting component
 function App() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderScreen = () => {
 
@@ -40,7 +40,7 @@ function App() {
 
   return (
     <>
-      <Header changeFn={changePage} />
+      <Header currentPage={currentPage} changeFn={changePage} />
       {renderScreen()}
       <Footer />
     </>
