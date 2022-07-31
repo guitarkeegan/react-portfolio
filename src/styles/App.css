@@ -31,14 +31,9 @@ svg {
 }
 
 .project-container img {
-  height: 300px;
-  width: 400px;
-  margin: 20px;
+  height: 200px;
+  margin: 15px auto;
   border: solid 2px;
-}
-
-.project-container:hover .overlay {
-  opacity: 1;
 }
 
 .profile-div {
