@@ -42,7 +42,7 @@ function App() {
     <>
       <Header currentPage={currentPage} changeFn={changePage} />
       {renderScreen()}
-      <Footer currentPage={currentPage} />
+      <Footer />
     </>
   );
 }
