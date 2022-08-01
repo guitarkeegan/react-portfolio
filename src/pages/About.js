@@ -18,7 +18,7 @@ export default function About(){
         <div className='about-title-div'>
             <div className='row'>
                 <div className='col-12 col-lg-6 text-center p-1'>
-                <img style={styles.img} className='img-fluid' src={profile}></img>
+                <img alt="profile image of Keegan Anglim" style={styles.img} className='img-fluid' src={profile}></img>
                 </div>
                 <div className='col-12 col-lg-6'>
                 <p>I moved to Southern California in 2003 to study jazz guitar at the University of Southern California. Since graduating in 2012 with a Doctorate of Music, I have been teaching a music courses in higher education at colleges throughout Los Angeles.</p>
