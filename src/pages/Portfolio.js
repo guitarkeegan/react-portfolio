@@ -24,7 +24,7 @@ export default function Portfolio() {
         <div className="col-4 project-container">
           <img className="img-fluid" src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="musical manuscript"></img>
           <div>
-            <h5 className="card-title">Music-Tech-Blog: site | <a href="https://github.com/guitarkeegan/mvc-tech-blog">repository</a></h5>
+            <h5 className="card-title">Music-Tech-Blog: <a href="https://radiant-stream-11702.herokuapp.com/">site</a> | <a href="https://github.com/guitarkeegan/mvc-tech-blog">repository</a></h5>
             <p>A blog about music and code.</p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function Portfolio() {
         <div className="col-4 project-container">
           <img className="img-fluid" src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="person typing on a laptop"></img>
           <div>
-            <h5 className="card-title">Social Network API: site | <a href="https://github.com/guitarkeegan/social-network-api">repository</a></h5>
+            <h5 className="card-title">Social Network API: <a href="https://loom.com/share/folder/f8aca736c21941b2a8bf25bb0ad272b0">video</a> | <a href="https://github.com/guitarkeegan/social-network-api">repository</a></h5>
             <p>API REST routes for social network site</p>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Portfolio() {
         <div className="col-4 project-container">
           <img className="img-fluid" src="https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80" alt="clothes on a hanger"></img>
           <div>
-            <h5 className="card-title">Poshmark Follower: site | <a href="https://github.com/guitarkeegan/poshmark-followers">repository</a></h5>
+            <h5 className="card-title">Poshmark Follower: <a href="">video</a> | <a href="https://github.com/guitarkeegan/poshmark-followers">repository</a></h5>
             <p>Follow the followers of your favorite poshmarker!</p>
           </div>
         </div>
