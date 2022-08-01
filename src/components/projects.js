@@ -39,6 +39,14 @@ const projects = [
         imgUrl: "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80",
         alt: "clothes on a hanger"
      },
+     {
+        title: "Music-Tech-Blog",
+        site: "https://radiant-stream-11702.herokuapp.com/",
+        repository: "https://github.com/guitarkeegan/mvc-tech-blog",
+        description: "A blog about music and code.",
+        imgUrl: "https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        alt: "musical manuscript"
+     },
 ]
 
 export default projects;
