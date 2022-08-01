@@ -1,3 +1,4 @@
+// Variable contains all of the project date that this is rendered on the portfolio page.
 const projects = [
     {
        title: "Hungry Eyes",

@@ -1,5 +1,5 @@
 import React from "react";
-
+// The project object is passed in and used to populate the related field
 export default function Project({ project }) {
     console.log(project);
   return (

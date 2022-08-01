@@ -3,5 +3,5 @@ export function validateEmail(email) {
     return re.test(String(email).toLowerCase());
   }
 
-
+// helper for the email validation on the contact page.
   
