@@ -46,13 +46,12 @@ function Contact() {
       setErrorMessage("Message cannon be left blank");
       return;
     }
+     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName("");
     setEmail("");
     setMessage("");
     setErrorMessage("");
   };
-
-  // If everything goes according to plan, we want to clear out the input after a successful registration.
 
   return (
     <>

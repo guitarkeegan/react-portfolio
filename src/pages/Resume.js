@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Resume() {
-
+// List of technical skills and a link to a downloadable google doc of my resume.
     return (
   <div className="container mt-5">
   <div className="text-center">

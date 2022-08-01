@@ -1,7 +1,7 @@
 import React from "react";
 import projects from '../components/projects';
 import Project from "../components/Project";
-
+// Page will call the Project component several times and pass in an object from the projects array, which holds all of the data related to each project.
 export default function Portfolio() {
   return (
     <div className="portfolio-container container">

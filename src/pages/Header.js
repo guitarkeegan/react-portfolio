@@ -1,8 +1,9 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 
+// header is passed 2 props, which will in tern be passed to the Navigation component
 function Header({changeFn, currentPage}) {
-
+// A bootstrap navbar is setup here, and calls the Navigation component to display the links for the other pages.
   return (
     <header>
       <nav className="navbar navbar-expand-lg">

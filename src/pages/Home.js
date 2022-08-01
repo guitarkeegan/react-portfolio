@@ -1,5 +1,5 @@
 import React from "react";
-
+// not much going on with this page, but I would like to add some video to the background in the futre.
 export default function Home() {
   return (
     <main className="container text-center">

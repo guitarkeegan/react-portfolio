@@ -1,5 +1,7 @@
 import React from "react";
+// Navigation is passed a function to update the current page, as well as the currentPage variable, which is used to conditionally render the link components. The current page link will condintionally be marked active.
 
+// Each link will also call the changeFn and pass in the corrisponding page name.
 export default function Navigation({ changeFn, currentPage }) {
   return (
     <ul className="navbar-nav">

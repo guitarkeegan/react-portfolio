@@ -1,5 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+// import font awesome icons
+
 const styles = {
     portfolio: {
         position: "static",
@@ -12,7 +14,7 @@ const styles = {
 export default function Footer() {
 
    
-
+// Bring in font awesome component for icons in the footer
   return (
     <footer className="footer" style={styles.portfolio}>
       <div className="container text-center">

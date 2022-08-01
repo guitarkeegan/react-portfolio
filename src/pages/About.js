@@ -1,8 +1,8 @@
 import React from 'react';
 import profile from '../assets/img/profile_selfie.jpg';
-
+// page will show a profile picture of me, with some text about me.
 export default function About(){
-
+// add inline style to the images
     const styles = {
         img: {
             maxWidth: "400px",
