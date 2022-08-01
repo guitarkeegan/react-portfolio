@@ -37,4 +37,8 @@
   ## License
   This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) - click the link to read the license.
   
+ ## Preview
+
+ [Live Demo](https://guitarkeegan.github.io/react-portfolio/)
+
  
