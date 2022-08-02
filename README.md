@@ -41,4 +41,5 @@
 
  [Live Demo](https://guitarkeegan.github.io/react-portfolio/)
 
+ ![Preview](./src/assets/img/Portfolio.gif)
  
