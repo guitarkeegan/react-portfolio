@@ -36,7 +36,7 @@ const projects = [
         title: "Steep Dreams",
         site: "https://glacial-fortress-58935.herokuapp.com/",
         repository: "https://github.com/guitarkeegan/steep-dreams",
-        description: "Follow the followers of your favorite poshmarker!",
+        description: "E-commerce site built with MERN stack",
         imgUrl: "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1734&q=80",
         alt: "tea"
      },
