@@ -33,12 +33,12 @@ const projects = [
         alt: "lock sitting on a keyboard"
      },
      {
-        title: "Poshmark Follower",
-        site: "https://github.com/guitarkeegan/poshmark-followers",
-        repository: "https://github.com/guitarkeegan/poshmark-followers",
+        title: "Steep Dreams",
+        site: "https://glacial-fortress-58935.herokuapp.com/",
+        repository: "https://github.com/guitarkeegan/steep-dreams",
         description: "Follow the followers of your favorite poshmarker!",
-        imgUrl: "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80",
-        alt: "clothes on a hanger"
+        imgUrl: "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1734&q=80",
+        alt: "tea"
      },
      {
         title: "Music-Tech-Blog",
