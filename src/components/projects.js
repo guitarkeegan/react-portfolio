@@ -25,7 +25,7 @@ const projects = [
         description: "API REST routes for social network site",
         imgUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
         alt: "person typing on a laptop",
-        expandedText: ""
+        expandedText: "API uses MySQL and Sequelize to add users, thoughts, and comments"
      },
      {
         title: "Password Generator",
@@ -34,7 +34,7 @@ const projects = [
         description: "Generate a random password!",
         imgUrl: "https://images.unsplash.com/photo-1633265486064-086b219458ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
         alt: "lock sitting on a keyboard",
-        expandedText: ""
+        expandedText: "Front end project with login for a password generator writen in javascript."
      },
      {
         title: "Steep Dreams",
@@ -43,7 +43,7 @@ const projects = [
         description: "E-commerce site built with MERN stack",
         imgUrl: "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1734&q=80",
         alt: "tea",
-        expandedText: ""
+        expandedText: "Built with MongoDB, Node, Apollo-Express, Graphql, and React."
      },
      {
         title: "Music-Tech-Blog",
@@ -52,7 +52,7 @@ const projects = [
         description: "A blog about music and code.",
         imgUrl: "https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
         alt: "musical manuscript",
-        expandedText: ""
+        expandedText: "Fullstack app written with handlebars, Express, JavaScript, MySQL, and Sequelize."
      },
 ]
 
