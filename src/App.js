@@ -1,12 +1,12 @@
 // import all pages, as well as react and the useState hook
 import React, {useState} from "react";
-import Home from "./pages/Home";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+
 
 
 function App() {
@@ -17,9 +17,6 @@ function App() {
   const renderScreen = () => {
 
     switch (currentPage) {
-      case "Home":
-        return <Home />
-        break;
       case "Portfolio":
         return <Portfolio />
         break;
@@ -33,7 +30,7 @@ function App() {
         return <Resume />;
         break;
       default:
-        return <Home />;
+        return <About />;
     }
   }
 // function that will use the useState hook to update the currentPage variable.

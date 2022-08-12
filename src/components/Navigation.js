@@ -7,17 +7,6 @@ export default function Navigation({ changeFn, currentPage }) {
     <ul className="navbar-nav">
       <li className="nav-item">
         <a
-          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-          aria-current="page"
-          onClick={() => {
-            changeFn("Home");
-          }}
-        >
-          Card
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
           onClick={() => {
             changeFn("About");

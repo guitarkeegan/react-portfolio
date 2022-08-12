@@ -112,3 +112,12 @@ svg {
 .page-container{
   flex: 1;
 }
+
+.project-btn:hover{
+  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
+}
+
+.project-btn{
+  text-decoration: none;
+  border: none;
+}

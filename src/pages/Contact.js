@@ -62,7 +62,8 @@ function Contact() {
     <p className="error-text">{errorMessage}</p>
     </div>
     <div className="container d-flex justify-content-center">
-      <form className="form">
+      <h2>keegananglim@gmail.com</h2>
+      {/* <form className="form">
         <input
           value={email}
           name="email"
@@ -92,7 +93,7 @@ function Contact() {
         <button className="btn contact-btn mt-2" type="button" onClick={handleFormSubmit}>
           Submit
         </button>
-      </form>
+      </form> */}
     </div>
     </>
   );
