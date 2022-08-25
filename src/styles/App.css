@@ -121,3 +121,11 @@ svg {
   text-decoration: none;
   border: none;
 }
+
+.tech-description{
+  font-weight: 600;
+}
+
+.project-description{
+  font-weight: 500;
+}

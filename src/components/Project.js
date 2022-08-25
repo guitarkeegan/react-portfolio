@@ -8,7 +8,6 @@ export default function Project({ project }) {
 
   return (
     <div className="col-12 col-md-4 project-container">
-      <Button className="project-btn" variant="none" >
       <img
         className="img-fluid project-img"
         src={project.imgUrl}
@@ -17,19 +16,15 @@ export default function Project({ project }) {
         aria-controls="example-collapse-text"
         aria-expanded={open}
       ></img>
-      </Button>
-      <Collapse in={open}>
-        <div id="example-collapse-text">
-          {project.expandedText}
-        </div>
-      </Collapse>
       <div>
         <h5 className="card-title">
           {project.title}:
           <a href={project.site}> site</a> |
           <a href={project.repository}> repository</a>
         </h5>
-        <p>{project.description}</p>
+        <p className="project-description">{project.description}</p>
+        <div className="tech-description">{project.expandedText}</div>
+        
       </div>
     </div>
   )
