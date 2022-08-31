@@ -11,7 +11,7 @@ const projects = [
     },
     {
         title: "Review Flix",
-        site: "https://hidden-beyond-31822.herokuapp.com/",
+        site: "https://review-flix.herokuapp.com/",
         repository: "https://github.com/guitarkeegan/ReviewFlix-personal",
         description: "Reviews for Netflix movies",
         imgUrl: "https://images.unsplash.com/photo-1543536448-d209d2d13a1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
