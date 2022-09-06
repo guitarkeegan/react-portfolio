@@ -22,7 +22,7 @@ footer div a, h5 a{
 }
 
 footer div a:hover, h5 a:hover{
-    color: var(--bh);
+    color: var(--gh);
 }
 
 main {
@@ -63,7 +63,7 @@ svg {
 }
 
 .nav-link:hover {
-  color: var(--bh);
+  color: var(--gh);
 }
 
 .active {
