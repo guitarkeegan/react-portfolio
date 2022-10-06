@@ -1,13 +1,22 @@
-import React, {useState} from "react";
-import Collapse from 'react-bootstrap/Collapse'
-import Button from 'react-bootstrap/Button'
+import React, {useState, useEffect} from "react";
+import Spinner from 'react-bootstrap/Spinner';
 // The project object is passed in and used to populate the related field
 export default function Project({ project }) {
     
   const [open, setOpen] = useState(false);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+       setLoading(false);
+     }, 1000);
+   },[]);
 
   return (
     <div className="col-12 col-md-4 project-container">
+    {loading ?
+    <Spinner animation="grow"/>
+    :
       <img
         className="img-fluid project-img"
         src={project.imgUrl}
@@ -15,7 +24,9 @@ export default function Project({ project }) {
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
         aria-expanded={open}
+
       ></img>
+    }
       <div>
         <h5 className="card-title">
           {project.title}:
