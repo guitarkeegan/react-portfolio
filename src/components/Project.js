@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import surpay from '../assets/img/heroImage.jpg'
 import Loader from "./Loader";
 // The project object is passed in and used to populate the related field
 export default function Project({ project }) {
@@ -10,7 +11,7 @@ export default function Project({ project }) {
     <div className="col-12 col-md-4 project-container">
       <img
         className="img-fluid project-img"
-        src={project.imgUrl}
+        src={project.imgUrl ? project.imgUrl : surpay}
         alt={project.alt}
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"

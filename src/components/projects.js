@@ -1,13 +1,13 @@
 // Variable contains all of the project date that this is rendered on the portfolio page.
 const projects = [
     {
-       title: "Hungry Eyes",
-       site: "https://guitarkeegan.github.io/hungry-eyes/",
-       repository: "https://github.com/guitarkeegan/hungry-eyes",
-       description: "Find your favorite foods nearby!",
-       imgUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-       alt: "fancy food on plates",
-       expandedText: "Site written with jQuery, Yelp Api, and Foodish API. User clicks a food image to see locations where the food can be found nearby."
+       title: "Surpay",
+       site: "https://nameless-meadow-92309.herokuapp.com/",
+       repository: "https://github.com/guitarkeegan/surpay-frontend",
+       description: "Take a Survey, Earn Crypto!",
+      //  imgUrl: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+       alt: "crypto currency symbols",
+       expandedText: "Tested and deployed smart contract with Chai and Hardhat. front end uses NextJS and MySQL database"
     },
     {
         title: "Review Flix",
