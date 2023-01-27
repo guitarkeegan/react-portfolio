@@ -122,6 +122,19 @@ svg {
   border: none;
 }
 
+.project-img, .profile-img{
+  animation: fade-in 2s ease-in;
+}
+
+@keyframes fade-in {
+  0%{
+    opacity: 0;
+  };
+  100%{
+    opacity: 1;
+  }
+}
+
 .tech-description{
   font-weight: 600;
 }
