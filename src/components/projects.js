@@ -28,13 +28,13 @@ const projects = [
         expandedText: "API uses MySQL and Sequelize to add users, thoughts, and comments"
      },
      {
-        title: "Password Generator",
-        site: "https://guitarkeegan.github.io/password-generator/",
-        repository: "https://github.com/guitarkeegan/password-generator",
-        description: "Generate a random password!",
-        imgUrl: "https://images.unsplash.com/photo-1633265486064-086b219458ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-        alt: "lock sitting on a keyboard",
-        expandedText: "Front end project with login for a password generator writen in javascript."
+        title: "Quack Planets",
+        site: "https://quack-planets.vercel.app/",
+        repository: "https://github.com/guitarkeegan/quack-planets",
+        description: "Information about our solar system presented in a fun way.",
+        imgUrl: "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80",
+        alt: "saturn",
+        expandedText: "Built with NextJS, using pure css to style planets, and postgres to store planet information."
      },
      {
         title: "Steep Dreams",

@@ -13,7 +13,7 @@ export default function Portfolio() {
       <Project project={projects[0]} />
       <Project project={projects[1]} />
       <Project project={projects[2]} />
-        
+      
         
       </div>
       <div className="row text-center">
