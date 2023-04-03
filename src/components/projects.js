@@ -19,13 +19,13 @@ const projects = [
         expandedText: "App uses handlebars and cloudinary on the front end and Node, Express, MySQL, and Sequelize on the backend"
      },
      {
-        title: "Social Network API",
-        site: "https://loom.com/share/folder/f8aca736c21941b2a8bf25bb0ad272b0",
-        repository: "https://github.com/guitarkeegan/social-network-api",
-        description: "API REST routes for social network site",
-        imgUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-        alt: "person typing on a laptop",
-        expandedText: "API uses MySQL and Sequelize to add users, thoughts, and comments"
+        title: "My Guitar Arrangements",
+        site: "https://sheet-music-store.vercel.app/",
+        repository: "https://github.com/guitarkeegan/sheet-music-store",
+        description: "E-commerce, sheetmusic",
+        imgUrl: "https://images.unsplash.com/photo-1626539896924-b328af4ef01d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+        alt: "sheet music",
+        expandedText: "Built with NextJS, Prisma, MongoDB, features user authentication and Stripe API integration"
      },
      {
         title: "Quack Planets",
